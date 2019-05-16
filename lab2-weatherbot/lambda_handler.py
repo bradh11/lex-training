@@ -1,7 +1,7 @@
 import json, os
 from botocore.vendored import requests
 
-app_id = os.environ['app_id']
+app_id = os.environ["app_id"]
 url = "http://api.openweathermap.org/data/2.5/weather"
 
 
@@ -37,4 +37,5 @@ def lambda_handler(event, context):
 
 
 if __name__ == "__main__":
+    # Local Test Code
     print(get_weather("Boston"))

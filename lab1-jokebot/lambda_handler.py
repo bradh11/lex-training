@@ -31,4 +31,5 @@ def lambda_handler(event, context):
 
 
 if __name__ == "__main__":
+    # Local test code
     print(get_joke())
