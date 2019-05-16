@@ -23,4 +23,4 @@ This GitHub repository has been created to help illustrate the create of LEX Int
 * [Open Movie Database API](http://www.omdbapi.com)
 * [open weather API](https://openweathermap.org/api)
 * [Dad jokes API](https://icanhazdadjoke.com/api)
-* [Chuck Norris Jokes API](https://api.chucknorris.io/jokes/random)
+* [Chuck Norris Jokes API](https://api.chucknorris.io)
