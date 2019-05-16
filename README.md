@@ -5,6 +5,7 @@ This GitHub repository has been created to help illustrate the create of LEX Int
 * create a jokebot which responds to you and makes a REST API call to return a joke.
 * create a weatherbot which can check the weather for whatever city/location you provide using REST API to a weather service
 * create a moviebot which can return facts about a given movie via the open movie online database.  Examples of criteria to ask for: release year, description, rating
+* modify the original jokebot from Lab 1 and have it give different responses for Dad Joke or Chuck Norris joke requests.
 
 ## Getting Started
 ### AWS Console
