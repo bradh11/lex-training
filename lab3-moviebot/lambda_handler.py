@@ -22,6 +22,8 @@ def movie_resonse(movie_data, movie_intent):
     movie_runtime = movie_data.get("Runtime")
     movie_poster = movie_data.get("Poster")
 
+    # TODO: CHALLENGE -> modify below to return genre based on intent
+
     if movie_intent == "movieReleaseDate":
         response_body = f"{movie_title} was released on {movie_date}"
     elif movie_intent == "moviePlot":
