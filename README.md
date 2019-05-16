@@ -1,5 +1,5 @@
 # Amazon LEX / Lambda Training - Lab materials
-This GitHub repository has been created to help illustrate the create of LEX Intents and leverage AWS Lambda serverless functions for fulfillment.
+This GitHub repository has been created to help illustrate the creation of LEX Intents and leverage AWS Lambda serverless functions for fulfillment.
 
 ## Lab Agenda
 * create a jokebot which responds to you and makes a REST API call to return a joke.
