@@ -9,6 +9,7 @@
    1. add slot for movie in each one with prompt of "What movie?"
    2. and Utterances for each for example: "What was the release date of {movie}, how long is {movie}, what was {movie} rated
 6. From Lambda console create a new function called getMovie using defaults (Python 3.7)
+7. add `api_key` environment variable with your openmovie DB API key
    1. within the Lamda function, find the section of code that has the if, elif statements:
 ```python
     if movie_intent == "movieReleaseDate":
@@ -24,8 +25,8 @@
     else:
         response_body = f"I'm sorry, I didnt quite understand your request."
 ```
-   1. modify the lines which mention ```movie_intent == "":``` - change what is in the "" to match the intent name you used in LEX
-7. Paste the Python code into the Lambda Function
-8. add `api_key` environment variable with your openmovie DB API key
+   2. modify the lines which mention ```movie_intent == "":``` - change what is in the "" to match the intent name you used in LEX
+   3. save the Lambda function after any changes to the python code
+8. Paste the Python code into the Lambda Function
 9.  In Lex intent, set fulfillment to Lambda function
-10.   Save, Build, and Test
+10.    Save, Build, and Test
