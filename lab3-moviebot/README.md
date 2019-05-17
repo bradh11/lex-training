@@ -1,7 +1,7 @@
 # Lab3 - moviebot
 
 ## Prerequisite - get an API key for open movie database
-1. Click here to sign up for an [omdb api key]("https://www.omdbapi.com/apikey.aspx")
+1. Click the omdb link and sign up for a free [omdb api key]("https://www.omdbapi.com")
 
 ## Getting started
 1. create a new bot in LEX called moviebot
