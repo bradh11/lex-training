@@ -24,7 +24,7 @@
     else:
         response_body = f"I'm sorry, I didnt quite understand your request."
 ```
-   1. modify the lines which mention `movie_intent == "":` - change what is in the "" to match the intent name you used in LEX
+   1. modify the lines which mention ```movie_intent == "":``` - change what is in the "" to match the intent name you used in LEX
 7. Paste the Python code into the Lambda Function
 8. add `api_key` environment variable with your openmovie DB API key
 9.  In Lex intent, set fulfillment to Lambda function
